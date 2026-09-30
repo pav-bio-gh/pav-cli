@@ -25,16 +25,18 @@ This repository is generated from the API's OpenAPI spec; do not edit it by hand
 ### Shell (macOS / Linux)
 
 ```bash
-curl -LsSf https://pav.bio/install.sh | sh
+curl -LsSf https://github.com/pav-bio-gh/pav-cli/releases/latest/download/pav-cli-installer.sh | sh
 ```
 
 ### PowerShell (Windows)
 
 ```powershell
-powershell -ExecutionPolicy ByPass -c "irm https://pav.bio/install.ps1 | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://github.com/pav-bio-gh/pav-cli/releases/latest/download/pav-cli-installer.ps1 | iex"
 ```
 
 Installs `pav` to `~/.local/bin`. Release archives for every platform are on the [releases page](https://github.com/pav-bio-gh/pav-cli/releases).
+
+Installs `pav` to `~/.local/bin`. Archives for every platform are on the [releases page](https://github.com/pav-bio-gh/pav-cli/releases).
 
 ### Build from source
 
