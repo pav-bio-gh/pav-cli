@@ -19,7 +19,6 @@ Full command reference for `pav`.
 - [`pav programs`](#pav-programs)
 - [`pav purple-book-products`](#pav-purple-book-products)
 - [`pav recalls`](#pav-recalls)
-- [`pav stats`](#pav-stats)
 - [`pav trials`](#pav-trials)
 - [`pav warning-letters`](#pav-warning-letters)
 
@@ -526,16 +525,6 @@ Drug, biologic and device recalls: `title` is the product, `description` the rea
 | `--sort` | `string` | No | `document_date` or `event_date`; prefix `-` to descend. |
 | `--limit` | `integer` | No | Rows per page (1-200). |
 | `--cursor` | `string` | No | `next_cursor` from the previous page. |
-
----
-
-### `pav stats`
-
-#### `pav stats get`
-
-Counts of active programs and companies, by phase and by modality.
-
-`GET /v1/stats`
 
 ---
 
